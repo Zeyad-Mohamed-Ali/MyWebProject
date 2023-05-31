@@ -7,7 +7,9 @@
     formCloseBtn.addEventListener("click",()=>formContiner.classList.remove("show"));
     signUpBtn.addEventListener("click",(e)=>{e.preventDefault();formContiner.classList.add("active");});
     loginBtn.addEventListener("click",(e)=>{e.preventDefault();formContiner.classList.remove("active");});
-    /*---------------------------scrooling cards------------------ */
+
+
+/*-------------------------------------slidding cards------------------------------- */
     
 const wrapper = document.querySelector(".wrapper");
 const carousel = document.querySelector(".carousel");
@@ -95,7 +97,7 @@ wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
 
 
-      
+ /*---------------------------------------------------------------------------------------*/     
  
 
 function check_name(){

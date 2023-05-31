@@ -219,8 +219,9 @@ session_start();
    <section class="skills" id="skills">
     <div class="skills_content">
         <div class="skills_continer">
-            <h1><span>My  </span>Skills</h1>
+            <h1><span>My</span>Skills</h1>
             <div class="skills_imgs_continer">
+                
                 <a href=""><img src="icons/Html.png" alt=""></a>
                 <a href=""><img src="icons/Css.png" alt=""></a>
                 <a href=""><img src="icons/java.png" alt=""></a>
@@ -248,7 +249,7 @@ session_start();
    </section>
    <footer class="footing" id="Contact">
     <h2>Zeyad <span>Alansi</span></h2>
-    <p>For more inquiries, contact us via the following link or phone number.</p>
+    <p class="foot">For more inquiries, contact us via the following link or phone number.</p>
     <a href="ae154978@gmail.com" class="footer_link">ae154978@gmail.com</a>
     <p>+976 779-834-227</p>
     <div class="footing_social">
